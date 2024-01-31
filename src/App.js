@@ -1,7 +1,7 @@
 import './App.css';
 import Confetti from './Confetti';
 
-const shareMessage = 'I just ran my first container using Docker'
+const shareMessage = 'Acabei de executar meu primeiro container com Docker!'
 const shareLink = 'https://docker.com/'
 
 const App = () => {
@@ -10,10 +10,10 @@ const App = () => {
       <Confetti />
       <header className="App-header">
         <h1 style={{ marginBottom: "0px" }}>
-          Congratulate!!!
+          Parabéns!!!
         </h1>
         <p style={{ marginTop: "10px", marginBottom: "50px" }}>
-          You ran your first container.
+          Seu primeiro Container está funcionndo.
         </p>
         <div>
           <a target="_blank" href={"https://twitter.com/intent/tweet?text=" + shareMessage + "&url=" + shareLink} class="fa fa-twitter" rel="noopener noreferrer"> </a>
