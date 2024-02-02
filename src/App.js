@@ -1,7 +1,7 @@
 import './App.css';
 import Confetti from './Confetti';
 
-const shareMessage = 'Acabei de executar meu primeiro container com Docker!'
+const shareMessage = 'Acabei de executar meu primeiro container com Docker! Go ahead'
 const shareLink = 'https://docker.com/'
 
 const App = () => {
